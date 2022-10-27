@@ -6,9 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{ config('app.name', 'Laravel') }}</title>
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
-        @if()
-            @vite(['resources/js/app.js'])
-        @endif
+        @vite(['resources/js/app.js'])
         @spladeHead
     </head>
     <body class="font-sans antialiased">
