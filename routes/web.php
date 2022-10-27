@@ -23,3 +23,8 @@ Route::group(
         require __DIR__.'/auth.php';
     });
 });
+
+
+Route::get('go', function(){
+    return view('pages/index');
+});
